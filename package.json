@@ -1,8 +1,10 @@
 {
     "name": "node-red-todo-app",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
-    "dependencies": {},
+    "description": "A Todo-Backend implementation using Node-RED and CouchDB. A sample application for https://github.com/knolleary/node-red-in-production-workshop",
+    "version": "0.1.0",
+    "dependencies": {
+        "node-red-contrib-cloudantplus": "0.2.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
